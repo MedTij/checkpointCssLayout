@@ -1,0 +1,286 @@
+body{
+    margin-left:18%;
+    margin-right: 18%;
+    padding: 0px;
+    
+}
+.image{
+    height: 120px;
+width: 400px;
+margin: 0;
+padding:0;
+}
+
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+li a{
+    padding: 14px;
+    text-decoration: none;
+    color: #747474;
+}
+.nav li{ 
+    display: inline-block;
+color: #747474;}
+   
+    
+    .main{
+        display:inline-block;
+    }
+    li a:hover{
+        color: aqua;
+    }
+   
+   
+    .main{
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .dropdown {
+        
+        display: inline-block;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;}
+        .dropdown-content a {
+            color:#747474;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {background-color: rgb(57, 238, 184);}
+        .dropdown:hover .dropdown-content {display: block;}
+
+        .img1{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50px;
+    }
+    .titre1{
+        text-align: center;
+        color: rgb(6, 197, 197);
+        font-size: 40px;
+    }
+    .paragraphs{
+    display:flex;
+line-height: 1.5;  
+margin-block-start: 1rem;
+margin-block-end: 1rem;
+justify-content: space-between;
+
+    }
+    .p1,.p2{
+font-style: normal;
+color: #747474;
+width: 49%;
+   }
+   .p1{
+       margin-right: 5px;
+   }
+    *{
+        box-sizing: inherit;
+    }
+    .services{
+        display: flex;
+        
+        height: 350;
+        padding: auto;
+        font-size: 50;
+       
+    }
+    .patients{
+background-color:rgba(44, 238, 196, 0.719);
+color: white;
+border-radius: 10px;
+    }
+    .doctors{
+        background-color: rgb(42, 101, 211);
+        border-radius: 10px;
+        color: white;
+    }
+
+.clinics{
+    background-color: rgb(1, 12, 48);
+    color: white;
+    border-radius: 10px;
+}
+.clinics,.doctors,.patients{
+    justify-content: center;
+align-items: center;
+flex-direction: column;
+width:250px;
+height:300px;
+padding: 0;
+margin: 10px;
+}
+.marks{
+    display: flex;
+    color: rgb(79, 238, 225);
+ align-items: center;
+ margin-top: 15px;
+ margin-bottom: 15px;
+  
+}
+.marks ul{
+    list-style-type: none;
+    margin: 1%;
+    padding: 0;
+    display:table;
+  
+}
+.mark{
+    display: flex;
+    color: #747474;
+    font-weight: lighter;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 20%;
+    padding: 5px;
+    float: left;
+    margin-bottom: 10px;
+}
+.logo{
+width: 15px;
+color: #747474;
+}
+.logo1,.logo2,.logo3{
+    width: 70px;
+}
+.marks h2{
+    width: 30%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30;
+    margin-top: 0;
+    font-weight: lighter;
+    font-size-adjust: inherit;
+    
+}
+.section4{
+    background-color: rgb(195, 236, 228);
+    display:flex;
+    font-size: 15;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#757575 ;
+    height: 600px;
+}
+.section4 h4{
+    font-size: 20;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#757575 ;
+}
+.details4 h4 {
+    font-size: 15;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#757575 ;
+}
+.details4{
+    display:flex;
+    flex-wrap: wrap;
+    width:50% ;
+    
+}
+.box1,.box2,.box3,.box4{
+    background-color: white;
+    width: 37%;
+height: 250px;;
+margin: 1rem;
+
+}
+.intro4{
+    width: 45%;
+    margin:1rem;
+
+}
+.intro4 h1{
+    color: rgb(79, 238, 225);
+}
+.img4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.intro5 {
+text-align: center;
+justify-content: center;
+margin-left: 250px;
+margin-right: 250px;
+margin-bottom: 100px;
+}
+.intro5 h1{
+    color: aqua;
+}
+.intro5 p{
+    color:#747474;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.section5 button{
+    background-color: rgb(46, 96, 204);
+    color: white;
+    border-radius: 5px;
+   
+    font-size: 10px;
+    
+    font-weight: lighter;
+    border:none;
+}
+.details5{
+    display: table;
+}
+.warsaw,.Barcelona,.istanbul,.curitiba,.bologna,.rome,.mexico{
+    float: left;
+    width: 25%;
+    padding: 5px;
+ margin: 1rem;
+}
+.capital{
+    width: 250px;
+}
+.name{
+    color: #747474;
+}
+.sb {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    width:250px;
+}
+.section6 {
+    text-align: center;
+justify-content: center;
+margin-top :100px;
+margin-left: 250px;
+margin-right: 250px;
+margin-bottom: 100px;
+}
+.section6 button{
+    background-color: rgb(46, 96, 204);
+    color: white;
+    border-radius: 5px;
+   
+    font-size: 15px;
+    width: 250px;
+    font-weight: lighter;
+    border:none;
+}
+.section6 h1{
+    color: #333333;
+    
+}
+footer{
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: center;
+justify-content: center;
+color: #747474;
+}
+
